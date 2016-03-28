@@ -1,4 +1,75 @@
-body {
-  font-family: "helvetica", arial;
-  color: #1FE3EF;
+
+#grad1 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+
+}
+
+
+
+#grad2 {
+    --bggrad:rgba(44,1, 22, 1);
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, var(--bggrad)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, var(--bggrad)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, var(--bggrad)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, var(--bggrad)); /* Standard syntax (must be last) */
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-family: komoda;
+  font-size: 64px;
+  padding-top: 320px;
+  letter-spacing: 10px;
+  line-height: 14px;
+}
+
+
+
+
+#bio{
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  margin-top: 0px;
+  letter-spacing: 1.8px;
+  font-weight: 550;
+  font-family: typewriter;
+}
+
+#contact{
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  line-height: 0px;
+  letter-spacing: 1.8px;
+  margin-bottom: -10px;
+
+
+
+}
+
+.center{
+  margin: auto;
+}
+
+@font-face{
+  font-family: komoda;
+  src: url(Komoda.otf);
+}
+
+@font-face{
+font-family: infinity;
+src: url(Infinity.ttf);
+}
+
+html, body {
+padding: 0;
+margin: 0;
 }
