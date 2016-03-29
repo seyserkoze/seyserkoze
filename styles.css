@@ -43,18 +43,19 @@ h1 {
 #bio {
     color: white;
     line-height: 20px;
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
     font-weight: 500;
-    font-family: typewriter;
+    font-family: 'Open Sans Condensed';
 }
 
 #contact {
     color: white;
-    letter-spacing: 1.8px;
+    letter-spacing: 2.5px;
+    font-family: 'Open Sans Condensed';
 }
 
 .center {
-    margin-top: 40vh;
+    margin-top: 75vh;
     text-align: center;
 }
 
@@ -63,10 +64,10 @@ h1 {
     src: url(Komoda.otf);
 }
 
-@font-face {
-    font-family: infinity;
-    src: url(Infinity.ttf);
-}
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+
 
 @media only screen and (min-width: 480px) and (max-width: 990px) {
     h1 {
